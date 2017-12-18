@@ -15,10 +15,22 @@ There are varying degrees of urgency in the issues: the proposed approach is to 
 
 ####*1.What is the main business problem being addressed?*
 
--   We cannot answers the following questions: 
--   Losing money because on misallocation
+-   Visits are getting misallocated across web surfaces, preventing reporting neededed for audible to scale SEO acquisition
+-   Tracking of visits and events is not possible on new products (such as Romance)
+-   Visits and events on new features (such as pdp redesign) is unreliable
+-   We cannot **reliably** answer the following business questions:
+    +   Where do our visits come from on mobile web?
+    +   How many visits does audible get in a given period on our website?
+    +   How many visits does a given subset of the audible website get in a given period?
+    +   What % of those visits materialize into a given event
+    +   What is the exact URL a given visit originated from?
+
 
 ####*2.Which teams are affected by the issue?*
+
+- Marketing Team:
+- BI/Data Science Team: key projects need 
+- Product Team: 
 
 ####*3.What is the business impact we can expect from the initiative?*
 
@@ -27,10 +39,13 @@ There are varying degrees of urgency in the issues: the proposed approach is to 
 
 ####*1.What are the most urgent issues to address?*
 
-1. Projects / Work Streams with high dependencies on Web Analytics
-2. Immediate Fixes needed
+- Projects / Work Streams with high dependencies on Web Analytics
+- Immediate Fixes needed
 
 ####*2.What is the proposed plan to address those?*
+
+- Action Code Epic
+
 
 ####*3.What is the proposed timeline?*
 
@@ -67,9 +82,13 @@ This group will include exec sponsors from BI / Business / Product / Tech and wi
 Workstreams: processes, tools, instrumentation
 
 ###<span style="color:#336BD3">Long-Term Solution</span> 
-1. Vision - Issues to address
 
-2. Project Scope
+####*1.What is the vision for this long-term solution?*
+
+####*2.What is the scope of this initiative?*
+
+####*2.What are the key milestones to hit in 2018?*
+
 
 ###<span style="color:#336BD3">FAQ Items – Deeper Dive:</span> 
 
