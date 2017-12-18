@@ -4,9 +4,17 @@
  
 ###<span style="color:#336BD3">Business Problem</span> 
 
+We gathered use cases from stake holders in Marketing, BI, Data Science, in the US and DE. These initial conversations shed some more light on the need for an effective real-time web-tracking solution
+
+Issues in the sytem's current implementation can be split into 2 categories:
+
+- Technical instrumentation issues that prevent effective of the tool for day-to-day use
+- Issues related to the architecture of the website and how we are set up as a company to maintain the tracking system
+
+There are varying degrees of urgency in the issues: the proposed approach is to tackle some urgent issues first but also to look at a long-term, sustainable solution. A solution to this complex issue will require collaboration with stakeholders from the Marketing, Product, Tech and BI team, along with involvement from the vendor
+
 ####*1.What is the main business problem being addressed?*
 
--   We talked to business partners
 -   We cannot answers the following questions: 
 -   Losing money because on misallocation
 
@@ -33,15 +41,18 @@
 
 ####*1.What is the Core Work group going to look like?*
 
+- BI: Bruno Dupont / Bob Campbell
+- Marketing: AJ Mihalic / Mael Borgers
+- Product: Maddy Want / Web PM
+- Tech: Ian Moraes or a team member
+
 ####*2.What is the extended Work group going to look like?*
 
 This group will include exec sponsors from BI / Business / Product / Tech and will be consulted / informed on a monthly basis:
 
-- Cynthia Chu / Christian Herm / Bob Campbell
-- John Harrobin
-- Joe Berger / Mike Masiello / Rich Stern
-monthly updates
-Working Group: BI / Business / Product
+- BI: Cynthia Chu / Christian Herm
+- Marketing: John Harrobin
+- Product/Tech: Joe Berger / Mike Masiello / Rich Stern
 
 ####*3.What are the key deliverables we expect from the Core Work group?*
 
@@ -52,10 +63,6 @@ Working Group: BI / Business / Product
 
 - 1-week research phase with the whole Core Work Group in January
 
-
-- Joe Berger / Mike Masiello
-- Product Management is needed
-- etc.
 
 Workstreams: processes, tools, instrumentation
 
@@ -117,64 +124,4 @@ The Arya migration includes Adobe Analytics instrumentation, meaning that every 
 It is imperative that we QA Adobe Analytics in Arya as soon as possible so we can address any issue (including the ones listed above).
 
 
-
-
-
-
-
-
-#<span style="color:#FA9017">NOTES:</span>
-
-##<span style="color:#336BD3">Overview</span>
-
-- We gathered use cases from stake holders in Marketing, BI, Data Science, in the US and DE
-- These initial conversations shed some more light on the need for an effective real-time web-tracking solution
-- Issues in the sytem's current implementation can be split into 2 categories:
-    + Technical instrumentation issues that prevent effective of the tool for day-to-day use
-    + Issues related to the architecture of the website and how we are set up as a company to maintain the tracking system
-- There are varying degrees of urgency in the issues: the proposed approach is to tackle some urgent issues first but also to look at a long-term, sustainable solution
-- A solution to this complex issue will require collaboration with stakeholders from the Marketing, Product, Tech and BI team, along with involvement from the vendor
-
-##<span style="color:#336BD3">About Site Catalyst</span>
-
-Adobe Analytics (formerly Site Catalyst or Omniture) is a web tracking engine installed on Audible's web platform. It is used by the marketing team to track traffic and events on web pages.
-
-
-
-
-##<span style="color:#336BD3">Getting to an MVP in 2018</span>
-
-###1. Projects / Work Streams with high dependencies on Web Analytics
-
-###2. Immediate Fixes needed
-
-###3. Proposed Approach and Working Group
-
-
-
-**
-
-
-Audit the solution in place on existing Arya Pages
-Test tracking vs. Santana pages
-List all available features
-Highlights gaps and improvements needed
-Standalone: this allows to understand how to use Site Cat on Arya 
-
-Working Group:
-BI Project Manager
-Site Cat Consultant
-BI analyst
-Web Developer (to provide logic and code)
-
-
-
-
-- Arya Audit: Arya Development team
-- BI / Marketing team to test results
-- Site Cat consultant needed
-- Output:
-    + Understanding of how site cat operates in the current version of Arya
-    + Highlight fixes and gaps to get to MVP
-    + Prioritize work in PI5 
 
