@@ -1,0 +1,156 @@
+Backlog:
+-----------------
+- Amazon Dashboard
+- App release dashboard
+- Sonos Reporting
+- App Home / Sonos reporting
+
+Idea Backlog:
+------------------
+	- We get a lot of calls on stats and badges. We don't invest in it, do people care about it?
+	- Push notifications: can we understand how to use them to reduce our churn rate?
+	- Why so many playback errors?
+
+
+TOA:
+- Check with Bolong on the timing
+
+====================================
+
+10/03 Mtg:
+===============
+
+CAR MODE - PPT:
+----------------
+
+Amazon Reporting:
+-------------------
+- Shell / Mock Up ready
+- Awaiting final structure from Marketing team
+- Ref Tag Mapping for Retail and Kindle in Progress: should be done this week
+- Ref Tag consistency will be key: need to make them consistent and queryable
+- eReader will have to be in v2
+- Alexa has proposed structure
+- Actual implementation of report will take some heavy lifting - help needed
+
+Backlog:
+-----------
+- App health report - awaiting word from Yohanes (proposal being reviewed)
+- Car Mode being finalized
+- SSO Report and then Sonos and App Home
+- Instrumentation issue: working on a proposal to have it instrumented by Maddy
+
+
+Site and App Strategy:
+-----------------------
+- We need smart instrumentation: clickstream, FCT device etc.
+
+
+
+
+10/16 - Mtg:
+======================
+
+Backlog could consist of the following:
+
+1. Site and Apps strategy paper
+	o Formulate the App priority
+	o Formulate problem:
+		- Basic app instrumentation for Apps
+		- Web instrumentation: mapping issue, site as a potential solution
+		- Amazon mapping and instrumentation issue
+	o Benefit of working site cat or web tracking:
+		- Detailed tracking needed for Site cat at Action code level
+		- Detailed URL availables, useful for tracking promotions, or specific pages?
+		- Data available in real time
+		- Cost Benefit analysis vs. clickstream option
+	
+
+2. Apps implementation with new solution put forth by Product Team
+
+3. Proposed strategic workstreams (backlog):
+	- What is the impact of customer onboarding on LTV (TOA deep dive)?
+	- Do features that promote engagement result in better LTV (Car Mode)?
+	- Customer segmentation by product usage:
+		o Browsing platforms
+		o Multiple device usage
+		o App interactions
+		o Listening behavior
+
+TOA Deep Dive:
+==============
+
+Question 1: Is acquisition increasing?
+	- Yes, A/B testing showed it
+
+Question 2: How are users responding to the product?
+	- Toaster views
+	- Actions after toaster views
+
+Question 3: Optimization areas
+	- Toaster click-through rate
+	- Email click-through rate
+	- Can we use push notifications
+
+Question 4: Is onboarding creating better customers:
+	- Usage during trial
+	- Are users finding a better book for their trial
+	- Are users better at finding books as members
+	- App usage for TOA members vs. non-TOA
+	- Credit usage, RPM, Retention
+	- Interactions with apps, finding content etc. (are we not 'training them to find content in the app?')
+
+
+1-1 11/15 BACKLOG:
+==================
+
+1 apps:
+-------
+	o Driving the project from BI
+	o PArt of vendor selection
+	o Put together BI criteria, specifically on data access
+	o Will work closely with vendor on data definition and instrumentation
+	o Will build reporting and measurement to be rolled out once solution is in place
+
+2 sitecat:
+----------
+Why Sitecat:
+	o Business Need is being formulated
+	o Tool is there and underutilized
+	o To power BI initiatives:
+		- Define and track L2-L3 metrics
+		- Multi-platform behavioral analytics
+		- UX performance measuring
+		- New Features 
+
+High-level plan:
+	o Discovery phase (business needs) - 2 weeks
+	o Explore current implementation - BI exercise
+	o Explore in-house solution - Tech/BI
+	o Explore other options
+	o Come up with plan and drive implementation
+
+
+3 Weblab measurement:
+---------------------
+	o A/B testing will be available in apps: we need to develop the practice in that space
+	o Explore need for UX-specific weblabs
+	o Web: expand weblabs to include downstream impact and integrate new data available with sitecat option
+
+4 Deep Dives:
+-------------
+	o TOA deep dive
+	o Car Mode / new feature deep dive
+
+
+
+
+
+
+
+
+
+
+
+
+

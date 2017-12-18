@@ -1,0 +1,291 @@
+Workstreams / Bakclog
+
+O_AUD_WMA_HITS
+
+Ref_marker: is there a directory?
+Shortened_url: what is it?
+Page_type: 
+
+Ref Marker: 
+
+a_hp_c4_1_1: first page of carousel, first book
+
+Page_asin = product asin
+
+Not logged in: session id
+
+FCT_device_Action_table: used for TOA
+
+Neeha: Kochava
+
+Site Catalyst:
+Customer_id?
+Code on every page. Web and Mobile.
+Page views, visits, flows (sequencing)
+Code on thank you pages, to count orders units revenue, specific titles (ASIN)
+Session ID: session defined in Site Catalyst
+Customer ID: encrypted customer ID
+Not used to full potential
+Search, etc.
+Page ID created by merchandisers in content symphony, if no page id, sitecat uses url
+In Sitecat look at desktop and mobile separately
+Page view: different page views in a given visit
+Chris RO: data feeds from it, in DMART
+---------------
+Are all pages automoatically added and Tracked? - empty page, sit cat code is in the header, pat of requirements
+Page views: 
+Visits: 
+Visitors:
+Purchases:
+Can look at purchases for cohorts of people who visited a certain page (ex.: dog people who visited mt/dogs)
+
+Can all pages be linked back to a button?
+The event needs to be defined to be tracked (e.g. add to wish list)
+Auth portal and wallet: amazon not audible pages, so not  in site catalyst.
+Sitecat doesn't take ref markers into account
+Need to be able to query the data
+How do we go about mapping?
+Why do we need a third party for this?
+We are not sending some data to sitecat
+
+
+
+MONITOR PORTAL
+
+
+08/11 - Product Leadership Meeting:
+Strategic Thinking: e.g. here are the high-value actions you can take
+Instrumentation mt with Maddy
+Alexa information: tables in amazon
+
+
+UX Conversation - 0908:
+Feature engagement
+Fact finding mission
+Strategic Backlog
+Ariel:
+Pain 1:
+	- Size of the prize - is the juice worth the squeeze
+	- Lot of work that gets teed up: is the size of the prize commensurate with the effort?
+	- Design, test, QA
+	- All based on back of the envelope intuition
+Output vs. outcome: output = deep linking, outcome = what is the impact on customers
+
+Pain 2:
+Vetting, tests etc before development starts: multi-PI approach
+Example: deep linking is more useful for formers, who know the app, etc, let's try this first before we roll it out to everyone
+Ask the right questions before starting coding
+
+Drive initiatives from BI insights
+
+Pain 3:
+Feature performance: define smart metrics (as opposed to clicks)
+
+Insights that will drive new Blue Cubes:
+E.g. significant amount of double purchasers, how do we serve them?
+E.g narrator page for app home
+Generating new ideas rather than validating other ideas
+
+Katharina Conversation 0912:
+Nick: purchase, what did you search for. Tool.
+Nick conversation: 
+Hana also working on this for daily deals
+
+Exploration, behavior before sign up
+Adobe report: key steps to sign up for trial, where are we losing people
+Would be interesting: Bjoern Shmidt using the report
+
+Katharina: what are the key metrics, data points we want to look at and what are common paths? Determine key paths by doing analysis. Where are we losing people? How do we differentiate between people?
+
+Nishi: upsell analysis to Reg No Buys.
+Nishi was getting data from clickstream: why not site catalyst?
+Very hard to get results.
+Dynamic Checkout not available.
+
+Amazon: where do people come from before they sign up? Twister? Search? Working on it: Prashanth. Priority 1.
+
+Andreas: working on touch points for multi touch attribution. Working from data set from site catalyst. And clickstream. What is driving trial sign up? Amazon: what is having an impact on trial sign up.
+
+Nick Parkin: managing site catalyst.
+
+AMAZON REPORTING:
+We track trials at aggregated level, what we'd like:
+	- Search for a title on  Amazon and then pdp
+	- Twister: on pdp: Audible
+	- Recommendation
+
+Cannot be done by action code, have to be done 1 level deeper: refmarker.
+
+How do they perform: what are the KPI's to know how these categories perform?
+
+Retail: define glanceview vs. click
+
+How big is the potential: for example, for HUD, how many impressions we get, not just click to get the very top of the funnel.
+
+Alexa: is the funnel even clear?
+
+Sandra put together the Alexa dashboard: approach.
+Same thing needed for Fire Devices, eReaders
+
+Mock up of a report for Amazon Mapping.
+Different cuts for Prime custs. Etc…
+
+Prime Benefit: how do we monitor it?
+
+1-pager on the approach and the rough plan, time plan
+
+PI3: instrument traffic categories (search etc). For now the main ones will be done, and a big "other" bucket
+
+Ref-tag instrumentation: repository. How do we do that?
+
+‘Member Funnel’ and conversion:
+‘Member Funnel’ and conversion – what are the key member journeys of members (eg, merch email –> purchase, catalogue browse -> purchase, purchase -> listen, etc.), where are the drop off points and ‘what could go wrongs’. I see this as something that should be covered in our Site&App Strategic Workstream.
+
+Engagement team, no reporting for entire memberbase.
+
+New cohorts are the engagement dashboard.
+
+Entire memberbase: how they are performing, with cohort view.
+
+Marketing-cohort based.
+
+Quick win: engagement dashboard for all cohorts whole memberbase
+Global Engagement Dashboard to include:	RPU by marketing channel and tenure
+	Expired by marketing channel and tenure
+	Stock up split out from AL by marketing channel and tenure
+	Free units - option to exclude from UPM, RPU, RPM by marketing channel and tenure
+	Take part in a weekly sales, Daily Deal, Monthly Deal
+
+What is our purchase conversion? 
+From key purchase points, visit to purchase: are we focusing on the right ones. By specific page types. Not slot specific, but homepage in general, search, pdp, merchandising pages.
+"Abandon cart" metric.
+
+Desktop and Mobile would be the first ones to focus on.
+
+Product BI - Amazon:
+Android app is on amazon app store
+eReader. Fire TV
+Live on 3 existing echos, 3-4 more coming
+Associates
+WFV.
+
+	- Product and feature based integrations where we have no visibility.
+	- WFV: we don’t know how people are using the product.
+	- Prime: how much shopping do you do on Amazon vs. Audible (for audiobooks)
+
+Instrumentation: key
+
+Devices number one on the list:
+	- Alexa first
+	- eReaders next
+	- Fire devices lower than that
+
+Alexa backlog pretty good
+
+Fire TV just launched
+Fire Tablets not growing (sales declining): should we continue to invest?
+Who is listening? Are they great customers?
+Fastest growing is KIDS: should we look into it?
+Launching an alexa kids device (baker)
+
+How should we approach Fire Tablets? In France?
+
+eReaders: big backlog already
+
+Prime Benefit: is it working? Are we expanding to other markets?
+
+Homestead: decent backlog.
+
+Michelle: Alexa.
+Who else would be good to talk to
+Prime / Kindle people
+
+
+================================================
+
+Site Catalyst (Nick P. 10/16):
+---------------
+- Data that's available, can it be queried
+- What's it used for now
+- Who uses it
+- What do you think we should be using it for
+
+	- Not instrumented yet
+	- 1 week of data sampled
+	- DMART will bring it in (at basic level) as part of next sprint
+	- enc customer id that we provide them
+	- there is an epic
+	- 66 fields identified as minimum of what we need
+	- SHould be very similar or exaclty the same to clickstream
+	- adobe has more granularity that gives us more value:
+		o adobe gives us source code and action code
+		o each entry point has an action code with the exception of anon
+		o by default anon
+		o page url also is in adobe (clickstream shortens it unless it's 'called out')
+
+PUJA follow up.
+
+Site Cat crucial for MTA model for ANdreas
+
+
+
+MTA:
+-----
+
+Kochava missing link to customer id (has device id but not in dmart)
+Site cat up in dmart, no impressions, and site cat is raw data for now
+clickstream
+Site cat external traffic: issues, SEO or anon traffic gets overwritten if the user drops off and someone comes bad with paid search
+
+Andreas: site cat was set up a long time ago and lacks maintenance
+
+
+Apps - ROI:
+===========
+
+Benefits:
+	- Planning:
+		o For 30+ engineers, $7.5MM of investments prioritized using the insights generated by the tool
+		o 
+	- Beta Testing
+	- Tracking
+
+Expenses:
+
+
+
+
+SITE CAT PROJECT:
+= = = = = = = = =
+
+ACTION CODES:
+-------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

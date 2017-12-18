@@ -1,0 +1,83 @@
+
+1- SCOPE DEFINITION
+------------------------
+- Kelly Meeting
+- Sandra Meeting
+
+
+2- AMAZON DATA SOURCING
+----------------------------
+- Prashanth: will get how to identify glanceviews on CD-WMA HITS
+
+
+3- REF TAG MAPPING / INSTRUMENTATION
+----------------------------------------
+- Manual Mapping in report mock up
+- Run senstitivity on where traffic comes from: fct_visits
+- External sources? Ask Mkting team
+- internal visits:  fct_visits
+- Glanceview Split: Prashanth
+
+
+4- REPORT BUILDING
+-------------------
+- Map out existing reports - Srujana - Highlight needs
+- Neeha - eReader
+- Alexa: append existing report, highlight needs
+
+
+5- QUESTIONS:
+---------------
+KINDLE:
+	- Library upsell has an action code: how do we track traffic?
+	- Can action codes record click?
+	- 
+
+1108 Meeting:
+-------------
+
+- 2 items: 
+	o reftag instrumentation epic
+	o owners for other proj plan items
+- Reftag Instrumentation:
+	o quick background: the funnel report will be all reftag-driven so we need very robust mapping and metadata for all reftags in use
+	o First element: mapping is needed so we can store all the metadata (channel, activity, surface, campaign) to generate the funnel report
+	o Second Element: we need to get a handle on the reftag generation and mapping going forward, so it can all be automated. So we need your help define a solution
+	o This meeting: think through next steps to start this
+
+- Owners: who should we follow up with: could you the 2 of you or someone else that, so we have a SPOC
+
+REFTAGS:
+========
+We create our reftags if the page is controlled by Audible
+Notes:
+- Based on feedback from Carter, mapping all reftags relevant to impressions and visits is not possible since some of those are automatically generated and hard to track
+- Recommendation is for the BI team to do a one-off analysis of the available data and come back with a mapping with % of traffic for each bucket.
+- The analysis will highlight the gaps in ref tag mapping and the impact on the overall reporting:
+	o Ref tags easily identifiable with metadata available
+	o Ref tags with no medadata available
+	o Ref tags that are hard to track
+	o % of traffic going through all these groups
+- Based on those findings, BI will ask for the product & marketing team's guidance on how to tackle the gaps and automate the mapping and instrumentation of future ref tags
+
+
+11/10 meeting:
+--------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,83 @@
+090/28 - Yohanes on app report
+------------------------------------------
+- Can we build this?
+- Who?
+- Can we instrument it in a smarter way (Maddy)
+- What can be lifted from existing reports?
+
+- Yohanes: send me a list of 5 burning questions for the backlog
+	- We get a lot of calls on stats and badges. We don't invest in it, do people care about it?
+	- Push notifications: can we understand how to use them to reduce our churn rate?
+	- Why so many playback errors?
+
+
+09/29 - Sid
+--------------
+- Retention:
+	- Car Mode, Sonos, App home
+	- Sonos: 
+- TTR:
+	- TOA.
+	- SSO: no BI support
+	- Deeplinking: no tracking
+	- Push: lower priority
+
+1. Car mode
+2. SSO - High Priority
+3. App Home / Sonos: not released, in front of that.
+
+Reports in a funnel manner / for US and Intl.
+
+
+10-11 INSTRUMENTATION:
+========================
+Should be part of prioritization
+Impact from a business standpoint
+
+
+
+
+10-19 AMAZON REPORTING:
+========================
+
+Kick Off Meeting:
+	- Define the working group
+	- Define roles and responsibilities
+	- Agree on the channel mapping
+	- Agree on the working cadence (MBR's twice a month) after 90 days once traffic and trials is implemented
+
+Kick off meeting participants: Taylor, Kelly, Carter, Brian + delegate, Harriet or delegate, BI
+
+Next 90 days:
+	- FUnnel report by traffic source
+	- Trials and Al's attributed by traffic source
+	- Ref Tag instrumentation
+	- Bring in missing traffic sources
+
+Structure:
+	- Break down 4 initiatives into small tasks
+	- Owners for each task and track progress
+	- Owners from BI, Product, Tech, Marketing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
