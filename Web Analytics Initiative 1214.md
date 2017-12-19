@@ -13,6 +13,8 @@ Issues in the sytem's current implementation can be split into 2 categories:
 
 There are varying degrees of urgency in the issues: the proposed approach is to tackle some urgent issues first but also to look at a long-term, sustainable solution. A solution to this complex issue will require collaboration with stakeholders from the Marketing, Product, Tech and BI team, along with involvement from the vendor
 
+> block quote
+
 ####*1.What is the main business problem being addressed?*
 
 -   Visits are getting misallocated across web surfaces, preventing reporting neededed for audible to scale SEO acquisition
@@ -39,12 +41,20 @@ There are varying degrees of urgency in the issues: the proposed approach is to 
 
 ####*1.What are the most urgent issues to address?*
 
-- Projects / Work Streams with high dependencies on Web Analytics
-- Immediate Fixes needed
+- Issues have been identified with the current implementation of the Site Catalyst tool that prevent marketing and BI teams from using it effectively. Since all webpages are being migrated to Arya, we need to make sure that the Site Catalyst implementation on the Arya platform meets our business needs.
+- Additionally, an issue with action code allocation methodology is causing discrepancies in how we recognize units in SEO, Anon and Paid Search in particular
+
+
 
 ####*2.What is the proposed plan to address those?*
 
-- Action Code Epic
+- **Arya Audit**:
+    + Implementation Review: detailed review of the logic used for the Site Catalyst implementation with the Development team. The idea is to understand what we should expect to flow through the tracker in as much detail as possible.
+    + Tracking Audit: 
+    + Issue Log / Recommended Fixes:
+    + PI5 Epic:
+- An **Action Code Epic** to address the allocation methodology for visits was submitted for prioritization in PI4: confirmation is pending on when this epic will be tackled by the Web team.
+
 
 
 ####*3.What is the proposed timeline?*
