@@ -13,11 +13,10 @@ Issues in the sytem's current implementation can be split into 2 categories:
 
 There are varying degrees of urgency in the issues: the proposed approach is to tackle some urgent issues first but also to look at a long-term, sustainable solution. A solution to this complex issue will require collaboration with stakeholders from the Marketing, Product, Tech and BI team, along with involvement from the vendor
 
-> block quote
 
 ####*1.What is the main business problem being addressed?*
 
--   Visits are getting misallocated across web surfaces, preventing reporting neededed for audible to scale SEO acquisition
+-   Visits are getting misallocated across acquisition channels
 -   Tracking of visits and events is not possible on new products (such as Romance)
 -   Visits and events on new features (such as pdp redesign) is unreliable
 -   We cannot **reliably** answer the following business questions:
@@ -27,15 +26,18 @@ There are varying degrees of urgency in the issues: the proposed approach is to 
     +   What % of those visits materialize into a given event
     +   What is the exact URL a given visit originated from?
 
-
 ####*2.Which teams are affected by the issue?*
 
-- Marketing Team:
-- BI/Data Science Team: key projects need 
-- Product Team: 
+- **Marketing Team**: these issues prevent accurate forecasting. Accurate visit racking is also critical for channels like SEO to develop and scale further as acquisition channels.
+- **BI/Data Science Team**: key projects need accurate tracking to be completed, including the Multi-Touch Attribution Model, the Purchase Journey model and the Media-Mix Model. 
+- **Product / UX Team**: the Product BI relies heavily on that data for reporting and feature performance monitoring.
 
 ####*3.What is the business impact we can expect from the initiative?*
 
+- Visibility into 
+- Acquisition Optimization
+- Product Tracking / AB Testing
+- c
 
 ###<span style="color:#336BD3">Short-Term Deliverables - Incremental Improvements</span> 
 
@@ -43,24 +45,27 @@ There are varying degrees of urgency in the issues: the proposed approach is to 
 
 - Issues have been identified with the current implementation of the Site Catalyst tool that prevent marketing and BI teams from using it effectively. Since all webpages are being migrated to Arya, we need to make sure that the Site Catalyst implementation on the Arya platform meets our business needs.
 - Additionally, an issue with action code allocation methodology is causing discrepancies in how we recognize units in SEO, Anon and Paid Search in particular
-
-
-
+    
 ####*2.What is the proposed plan to address those?*
 
 - **Arya Audit**:
-    + Implementation Review: detailed review of the logic used for the Site Catalyst implementation with the Development team. The idea is to understand what we should expect to flow through the tracker in as much detail as possible.
-    + Tracking Audit: 
-    + Issue Log / Recommended Fixes:
-    + PI5 Epic:
+    + *Implementation Review*: detailed review of the logic used for the Site Catalyst implementation with the Development team. The idea is to understand what we should expect to flow through the tracker in as much detail as possible.
+    + *Tracking Audit*: this step would be a user test that would involve a BI team member with Site Cat experience to check that the tracking is working as expected on Arya pages. The recommended scope would include a sample set of pages from US, Canada and DE. This step might also require help from a Site Catalyst consultant.
+    + *List Issues and Recommended Fixes*: based on the audit, the team will provide a list of fixes needed to ensure Site Catalyst can be used effectively on the Arya platform
+    + *PI5 Epic*: the fixes will be submitted  for prioritization as an Premium epic in PI5
 - An **Action Code Epic** to address the allocation methodology for visits was submitted for prioritization in PI4: confirmation is pending on when this epic will be tackled by the Web team.
-
-
 
 ####*3.What is the proposed timeline?*
 
-####*4.Who should be part of the work group?*
+- The Arya audit is scheduled for PI4, with fixes implemented in PI5
+- The work group will work on the vision and plan for the long-term solution through PI4.
 
+####*4.Who should be part of the work group for this phase?*
+
+- BI analyst(s) with Site Catalyst expertise to conduct the audit
+- Marketing Lead (AJ)
+- Site Catalyst consultant (tbc)
+- Web Developer / SDM to provide clarity on the logic used for Site Cat in Arya
 
 ###<span style="color:#336BD3">Set-up Needed - Work Group</span> 
 
@@ -95,9 +100,41 @@ Workstreams: processes, tools, instrumentation
 
 ####*1.What is the vision for this long-term solution?*
 
+The detailed vision for a sustainable, best-in-class web tracking solution will have to be developped by the Core Work Group based on input and use cases from the business, BI, product and tech teams.
+
+Below are 2 directional routes the company could go in order to ensure improvements in the way audible tracks traffic and events on web surfaces.
+
+*Option 1 - MEDIUM - Best Practices to facilitate tracking going forward*
+
+Once the Arya audit is done and potential fixes are in place, tracking should be at an acceptable level on web surfaces. The priority will then be to ensure continuity going forward. This can be addressed with a set of best practices around new pages / feature launches, including for example:
+
+- Architecture practices including URL, page name and page type conventions
+- Tagging, including standardized ref markers conventions
+- Standardized documentation and communication practices around each new page/feature launch
+
+*Option 2 - LARGE - Web Tracking Overhaul*
+
+
+
+- Website Architecture:
+    + Page types
+    + Standardized Page names / URL's
+- Maintenance:
+    + Integration of new events
+    + Integration of new pages
+- Data Management:
+    + Data Quality process
+    + Extracts into DMART
+
+
 ####*2.What is the scope of this initiative?*
 
-####*2.What are the key milestones to hit in 2018?*
+*Option 1 - MEDIUM - Best Practices to facilitate tracking going forward*
+
+
+*Option 2 - LARGE - Web Tracking Overhaul*
+
+####*3.What are the key milestones to hit in 2018?*
 
 
 ###<span style="color:#336BD3">FAQ Items – Deeper Dive:</span> 
@@ -105,10 +142,10 @@ Workstreams: processes, tools, instrumentation
 ####*1. Why Site Catalyst?*
 There are a few key reasons why Site Catalyst is needed by Audible as a business:
 
-- *Real-Time Data*: 
-- *Full URL's*:
+- *Real-Time Data Feeds*
+- *Tracks Full URL's*
 - *Built-in dashboards and excel plug in*
-- *Action Codes for Visits*:
+- *Can apply Action Codes to Visits*
 - *The tool is set up to manage sessions*
 - *Creating customer segments*
 
@@ -134,7 +171,7 @@ We need clear vibility into the website's architecture in order to analyze perfo
 
 The following issues will most likely require changes to the instrumentation site-wide: 
 
-- Referrers (SEO, PAid Search et.) not tracking correctly
+- Referrers (SEO, Paid Search et.) not tracking correctly
 - URL’s get truncated
 - Some pages are not instrumented
 - Instrumentation hasn't been updated on some pages
