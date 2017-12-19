@@ -18,26 +18,27 @@ There are varying degrees of urgency in the issues: the proposed approach is to 
 
 -   Visits are getting misallocated across acquisition channels
 -   Tracking of visits and events is not possible on new products (such as Romance)
--   Visits and events on new features (such as pdp redesign) is unreliable
+-   Tracking of visits and events on new features (such as pdp redesign) is unreliable
 -   We cannot **reliably** answer the following business questions:
     +   Where do our visits come from on mobile web?
     +   How many visits does audible get in a given period on our website?
     +   How many visits does a given subset of the audible website get in a given period?
-    +   What % of those visits materialize into a given event
+    +   What percentage of those visits materialize into a given event
     +   What is the exact URL a given visit originated from?
 
 ####*2.Which teams are affected by the issue?*
 
-- **Marketing Team**: these issues prevent accurate forecasting. Accurate visit racking is also critical for channels like SEO to develop and scale further as acquisition channels.
+- **Marketing Team**: these issues prevent accurate forecasting and website performance monbitoring (e.g. purchase rates on new titles or promotions). Accurate visit tracking is also critical for channels like SEO to develop and scale further as acquisition channels.
 - **BI/Data Science Team**: key projects need accurate tracking to be completed, including the Multi-Touch Attribution Model, the Purchase Journey model and the Media-Mix Model. 
 - **Product / UX Team**: the Product BI relies heavily on that data for reporting and feature performance monitoring.
 
 ####*3.What is the business impact we can expect from the initiative?*
 
-- Visibility into 
-- Acquisition Optimization
-- Product Tracking / AB Testing
-- c
+- Improved visibility into our traffic and external traffic sources
+- Acquisition Optimization for the affected channels (SEO, Anon)
+- Improved Performance Tracking on new products / features
+- Improved AB Testing capabilities
+- More accurate BI analyses and tools such as MTA, Purchase Journey
 
 ###<span style="color:#336BD3">Short-Term Deliverables - Incremental Improvements</span> 
 
@@ -86,15 +87,16 @@ This group will include exec sponsors from BI / Business / Product / Tech and wi
 
 ####*3.What are the key deliverables we expect from the Core Work group?*
 
-- Research and create the vision for the long-term plan
+- Research and create the vision for the long-term plan in terms of:
+    + Processes
+    + Tools
+    + Instrumentation
 - Articulate the staffing needs and deliverables in the next 3-4 PI's
 
 ####*4.What is the proposed next step?*
 
 - 1-week research phase with the whole Core Work Group in January
 
-
-Workstreams: processes, tools, instrumentation
 
 ###<span style="color:#336BD3">Long-Term Solution</span> 
 
