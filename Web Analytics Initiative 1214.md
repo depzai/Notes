@@ -114,7 +114,7 @@ Once the Arya audit is done and potential fixes are in place, tracking should be
 
 *Option 2 - LARGE - Web Tracking Overhaul*
 
-
+In this option, we'll explore reshaping how we approach website tracking at audible by tackling some of the main issues that were identified in the initial discovery phase, including:
 
 - Website Architecture:
     + Page types
@@ -131,11 +131,15 @@ Once the Arya audit is done and potential fixes are in place, tracking should be
 
 *Option 1 - MEDIUM - Best Practices to facilitate tracking going forward*
 
+This project involves mostly processes and can be tackled in 2 phases, with an initial research spike and then implementation, probably around PI5. Ownership in the Product Management organization will be critical.
 
 *Option 2 - LARGE - Web Tracking Overhaul*
 
+Going this route will have to turn this project into a full-fledged initiative, with high product-management involvement needed and collaboration between BI, Marketing, Product and Tech teams.
+
 ####*3.What are the key milestones to hit in 2018?*
 
+To be determined in the initial research phase.
 
 ###<span style="color:#336BD3">FAQ Items – Deeper Dive:</span> 
 
