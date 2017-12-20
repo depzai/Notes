@@ -1,8 +1,6 @@
+##<span style="color:#FA9017">Web Analytics - 2018</span>
 
-##<span style="color:#FA9017">FAQ’s – Web Analytics in 2018: </span>
- 
- 
-###<span style="color:#336BD3">Business Problem</span> 
+###<span style="color:#336BD3">Business Problem</span>
 
 We gathered use cases from stake holders in Marketing, BI, Data Science, in the US and DE. These initial conversations shed some more light on the need for an effective real-time web-tracking solution
 
@@ -72,8 +70,10 @@ There are varying degrees of urgency in the issues: the proposed approach is to 
 
 ####*1.What is the Core Work group going to look like?*
 
+Here is a proposed structure for the core work group:
+
 - BI: Bruno Dupont / Bob Campbell
-- Marketing: AJ Mihalic / Mael Borgers
+- Marketing: AJ Mihalic / Regina Markantes / Mael Borgers?
 - Product: Maddy Want / Web PM
 - Tech: Ian Moraes or a team member
 
