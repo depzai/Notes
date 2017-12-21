@@ -77,9 +77,10 @@ At high level, Marketing and BI teams are encountering data issues when using Si
 Here is a proposed structure for the core work group:
 
 - BI: Bruno Dupont / Bob Campbell
-- Marketing: AJ Mihalic / Regina Markantes / Mael Borgers?
-- Product: Maddy Want / Web PM
-- Tech: Ian Moraes or a team member
+- Marketing: US lead / Mael Borgers in DE tbc
+- Product Management: 
+- Tech: TPM + Web Developer (Jeff Deutsch tbc)
+- Adobe: consultant with data and marketing knowledge
 
 ####*2.What is the extended Work group going to look like?*
 
