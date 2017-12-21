@@ -1,42 +1,46 @@
 ##<span style="color:#FA9017">Web Analytics - 2018</span>
 
-###<span style="color:#336BD3">Business Problem</span>
+###<span style="color:#336BD3">Introduction - Business Problem</span>
 
-We gathered use cases from stake holders in Marketing, BI, Data Science, in the US and DE. These initial conversations shed some more light on the need for an effective real-time web-tracking solution
+We gathered use cases from stake holders in Marketing, BI, Data Science, in the US and DE. These initial conversations highligted significant issues with our current tracking system.
 
-Issues in the sytem's current implementation can be split into 2 categories:
+Site Catalyst (Or Omniture, Adobe Analytics) is the tool currently used for tracking visits and event on web surfaces. Issues in the sytem's current implementation can be split into 2 categories:
 
 - Technical instrumentation issues that prevent effective of the tool for day-to-day use
-- Issues related to the architecture of the website and how we are set up as a company to maintain the tracking system
+- Issues related to the architecture of the website and how we are set up as a company to effectively maintain a web tracking system
 
-There are varying degrees of urgency in the issues: the proposed approach is to tackle some urgent issues first but also to look at a long-term, sustainable solution. A solution to this complex issue will require collaboration with stakeholders from the Marketing, Product, Tech and BI team, along with involvement from the vendor
+There are varying degrees of urgency in the issues: the proposed approach is to tackle some urgent issues first but also to look at a long-term, sustainable solution. A solution to this complex issue will require collaboration with stakeholders from the Marketing, Product, Tech and BI team, along with involvement from the vendor.
 
 
 ####*1.What is the main business problem being addressed?*
 
--   Visits are getting misallocated across acquisition channels
+At high level, Marketing and BI teams are encountering data issues when using Site Catalyst to track visits and events:
+
+-   Visits are getting misallocated across some acquisition channels
 -   Tracking of visits and events is not possible on new products (such as Romance)
 -   Tracking of visits and events on new features (such as pdp redesign) is unreliable
+-   The Trial Take Rates we derive from our visit tracking are unreliable
 -   We cannot **reliably** answer the following business questions:
     +   Where do our visits come from on mobile web?
     +   How many visits does audible get in a given period on our website?
     +   How many visits does a given subset of the audible website get in a given period?
-    +   What percentage of those visits materialize into a given event
+    +   What percentage of those visits materialize in a membership event
     +   What is the exact URL a given visit originated from?
 
 ####*2.Which teams are affected by the issue?*
 
-- **Marketing Team**: these issues prevent accurate forecasting and website performance monbitoring (e.g. purchase rates on new titles or promotions). Accurate visit tracking is also critical for channels like SEO to develop and scale further as acquisition channels.
+- **Marketing Team**: these issues prevent accurate forecasting and website performance monitoring (e.g. purchase rates on new titles or promotions). Accurate visit tracking is also critical for channels like SEO to develop and scale further as acquisition channels.
 - **BI/Data Science Team**: key projects need accurate tracking to be completed, including the Multi-Touch Attribution Model, the Purchase Journey model and the Media-Mix Model. 
 - **Product / UX Team**: the Product BI relies heavily on that data for reporting and feature performance monitoring.
 
 ####*3.What is the business impact we can expect from the initiative?*
 
-- Improved visibility into our traffic and external traffic sources
-- Acquisition Optimization for the affected channels (SEO, Anon)
+- Improved visibility into our traffic and external traffic sources and:
+    + Accurate Visit and TTR reporting on all channels
+    + Acquisition Optimization for the affected channels (SEO, Anon)
 - Improved Performance Tracking on new products / features
 - Improved AB Testing capabilities
-- More accurate BI analyses and tools such as MTA, Purchase Journey
+- More accurate BI analyses and tools such as MTA, Purchase Journey, MMM
 
 ###<span style="color:#336BD3">Short-Term Deliverables - Incremental Improvements</span> 
 
@@ -62,11 +66,11 @@ There are varying degrees of urgency in the issues: the proposed approach is to 
 ####*4.Who should be part of the work group for this phase?*
 
 - BI analyst(s) with Site Catalyst expertise to conduct the audit
-- Marketing Lead (AJ)
+- Marketing Lead (tbd)
 - Site Catalyst consultant (tbc)
-- Web Developer / SDM to provide clarity on the logic used for Site Cat in Arya
+- Web Developer / SDM to provide clarity on the logic used for Site Cat in Arya (Jeff Deutsch tbc)
 
-###<span style="color:#336BD3">Set-up Needed - Work Group</span> 
+###<span style="color:#336BD3">Set-up Needed - Work Group</span>
 
 ####*1.What is the Core Work group going to look like?*
 
@@ -245,4 +249,5 @@ Huge peak on nov 14 2017, no evar / prop give any clue so far
 Mike M: having a TPM
 Cynthia:
 Send out the comm. on status, timeline
+
 
